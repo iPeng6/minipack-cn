@@ -1,34 +1,34 @@
 ## 📦 Minipack
 
-> A simplified example of a modern module bundler written in JavaScript
+> 一个用JavaScript写的现代模块打包器的简单例子
 
 ### Introduction
 
-As front-end developers, we spend a lot of time working with tools like [Webpack](https://github.com/webpack/webpack), [Browserify](https://github.com/browserify/browserify), and [Parcel](https://github.com/parcel-bundler/parcel).
+作为前端开发者，我们花了大量时间与这些工具打交道如 [Webpack](https://github.com/webpack/webpack), [Browserify](https://github.com/browserify/browserify), 和 [Parcel](https://github.com/parcel-bundler/parcel).
 
-Understanding how those tools work can help us make better decisions on how we write our code. By understanding how our code turns into a bundle and how that bundle looks like we can also debug it better.
+理解这些工具是如何工作的能够帮助我们更好的写代码，通过理解我们的代码如何被转换成bundle以及bundle长啥样也能帮助我们更好的debug.
 
-The purpose of this project is to explain how most bundlers work under the hood. It contains a short implementation of a simplified but still reasonably accurate bundler. Along with the code, there are comments explaining what the code is trying to achieve.
+这个项的目的旨在解释大部分打包器内部是怎么工作的。包含了一个简化版但也足够精致的打包器的简短实现。除了代码还有注释解释了如何做到。
 
-### Cool, where do I start?
+### 酷，从哪开始呢?
 
-Head on to the source code: [src/minipack.js](src/minipack.js).
+转到源码: [src/minipack.js](src/minipack.js).
 
-### Try running the code
+### 尝试运行
 
-Start by installing dependencies:
+安装依赖
 
 ```sh
 $ npm install
 ```
 
-And then run our script:
+然后运行脚本
 
 ```sh
 $ node src/minipack.js
 ```
 
-### Additional links
+### 其他参考链接
 
 - [AST Explorer](https://astexplorer.net)
 - [Babel REPL](https://babeljs.io/repl)
@@ -36,8 +36,3 @@ $ node src/minipack.js
 - [Babel Plugin Handbook](https://github.com/thejameskyle/babel-handbook/blob/master/translations/en/plugin-handbook.md)
 - [Webpack: Modules](https://webpack.js.org/concepts/modules)
 
-### Read this in other languages
-
-- [한글/Korean](https://github.com/hg-pyun/minipack-kr)
-- [中文/Chinese](https://github.com/chinanf-boy/minipack-explain)
-- [Русский/Russian](https://github.com/makewebme/build-your-own-webpack)
